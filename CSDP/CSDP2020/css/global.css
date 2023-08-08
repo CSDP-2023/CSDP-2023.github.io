@@ -288,7 +288,7 @@ h1, h2, h3{
 #conferences{
   margin:10px 0 10px 10px;
   padding-bottom:10px;
-  min-height:150px;
+  min-height:100px;
   font-family:Georgia;
 }
 #conferences dl{
