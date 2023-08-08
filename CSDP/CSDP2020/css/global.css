@@ -285,6 +285,57 @@ h1, h2, h3{
   cursor:default;
 }
 
+#conferences{
+  margin:10px 0 10px 10px;
+  padding-bottom:10px;
+  min-height:150px;
+  font-family:Georgia;
+}
+#conferences dl{
+  margin-left:30px;
+}
+#conferences dt, #conferences dd{
+  padding:0;
+  font-size: 1.2em;
+  font-weight:normal;
+  letter-spacing: 0.4px;
+  width:80%;
+}
+#conferences dt {
+  border-top:dotted 2px #121;
+  font-weight:bold;
+}
+#conferences dd {
+	text-indent:1em;
+  /*border-top:dotted 2px #333;*/
+}
+
+#conferences h1{
+  display:block;
+  position:relative;
+  text-align:left;
+  text-indent:30px;
+  font-size:16pt;
+  top:20px;
+  padding:0;
+  margin:0;
+}
+#conferences dl{
+  display:block;
+  position:relative;
+  top:10px;
+  color:#58595b;
+}
+#conferences dt{
+  margin:10px 0 0 0;
+  color:#58595b;
+}
+#conferences dd{
+  margin:2px 4px 0 0;
+  color:#005f98;
+  cursor:default;
+}
+
 #footer{
   min-height:80px;
   line-height:70px;
